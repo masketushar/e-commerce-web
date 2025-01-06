@@ -1,7 +1,7 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
 
-const ProductPage = () => {
+const Product = () => {
   const { id } = useParams();
   const product = { id, name: `Product ${id}`, price: id * 100 };
 
@@ -13,4 +13,4 @@ const ProductPage = () => {
     </div>
   );
 };
-export default ProductPage;
+export default Product;
