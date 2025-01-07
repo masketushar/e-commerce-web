@@ -17,7 +17,7 @@ const Page = () => {
               <img
                 src={casuala}
                 alt="casual"
-                className="w-full h-auto rounded-lg"
+                className="width: 75%;h-auto rounded-lg"
               />
               <p className="mt-2 text-lg font-medium">Casual</p>
             </div>
@@ -25,7 +25,7 @@ const Page = () => {
               <img
                 src={formala}
                 alt="Formal"
-                className="w-full h-auto rounded-lg"
+                className="w-40% h-auto rounded-lg"
               />
               <p className="mt-2 text-lg font-medium">Formal</p>
             </div>

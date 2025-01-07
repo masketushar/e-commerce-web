@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import PageA from "./commen/pageA";
 import PageB from "./commen/pageB";
+import PageC from "./commen/pageC";
 
 const products = [
   { id: 1, name: "Product A", price: 100 },
@@ -11,20 +12,20 @@ const products = [
 
 const Home = () => {
   return (
-    <><div>
+    <>
       <div>
-        {products.map((product) => (
-          <div key={product.id}>
-            <Link to={`/product/{product.id}`}>
-            
-            </Link>
-          </div>
-        ))}
+        <div>
+          {products.map((product) => (
+            <div key={product.id}>
+              <Link to={`/product/{product.id}`}></Link>
+            </div>
+          ))}
+        </div>
+        <PageA />
+        <PageB />
+        <PageC />
       </div>
-      <PageA />
-      <PageB />
-   </div>
-  </>
+    </>
   );
 };
 

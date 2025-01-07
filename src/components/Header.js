@@ -7,12 +7,8 @@ const Header = () => {
     <header className="bg-gray-800 shadow-blue sticky top-0 z-50">
       <nav className="container mx-auto flex items-center justify-between py-4 px-6">
         <Link to="/" className="flex items-center space-x-2">
-          <img
-            src=""
-            alt=""
-            className="h-8 w-8"
-          />
-          <span className="text-xl font-bold text-gray-200">Tushar</span>
+       
+      <span className="text-xl font-bold text-yellow-200 ">Tushar</span>
         </Link>
 
         <div className="hidden lg:flex items-center space-x-8">
