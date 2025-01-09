@@ -3,6 +3,8 @@ import { Link } from "react-router-dom";
 import PageA from "./commen/pageA";
 import PageB from "./commen/pageB";
 import PageC from "./commen/pageC";
+import PageD from "./commen/pageD";
+import PageE from "./commen/pageE";
 
 const products = [
   { id: 1, name: "Product A", price: 100 },
@@ -24,6 +26,8 @@ const Home = () => {
         <PageA />
         <PageB />
         <PageC />
+        <PageD />
+        <PageE />
       </div>
     </>
   );

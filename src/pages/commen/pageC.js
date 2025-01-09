@@ -103,8 +103,7 @@ const PageC = () => {
                 ({product.reviews} reviews)
               </p>
               <div className="absolute top-4 right-4 flex flex-col space-y-2">
-                {<MdFavoriteBorder />
-                }
+            
                 <button className="p-2 bg-gray-100 rounded-full hover:bg-gray-200">
                   <MdFavoriteBorder className="h-5 w-5 text-gray-600" />
                 </button>
