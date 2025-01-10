@@ -6,7 +6,8 @@ import { FaMobileAlt } from "react-icons/fa";
 const PageD = () => {
   return (
     <div className="w-full p-4">
-  <h5 className='text-yellow-600'>Categories</h5>
+      <div className="w-3 h-6 bg-yellow-500 rounded  flex">
+  <span className='text-gray-700 ml-3 text-sm font-medium' >Categories</span></div>
       <section className="mb-8">
         <h1 className="text-2xl font-bold mb-4">Browse By Category</h1>
         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4">
@@ -24,8 +25,6 @@ const PageD = () => {
           ))}
         </div>
       </section>
-
-      {/* Voucher Section */}
       <section className="relative bg-black text-white h-1/2 rounded-lg p-6 flex flex-col lg:flex-row items-center justify-between">
         <div className="mb-4 lg:mb-0">
           <h3 className="text-3xl font-bold mb-2">Up to 10% off Voucher</h3>

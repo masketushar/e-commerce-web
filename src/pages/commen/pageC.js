@@ -46,7 +46,7 @@ const PageC = () => {
       <div className="max-w-7xl mx-auto">
         <div className="flex justify-between items-center mb-6">
           <div>
-            <h2 className="text-lg font-semibold text-yellow-600">This Month</h2>
+          <div className="w-3 h-6 bg-yellow-500 rounded  flex"><span className="text-gray-700 ml-3 text-sm w-4 font-medium">ThisMonth</span></div>
             <h1 className="text-3xl font-bold text-gray-900">
               Best Selling Products
             </h1>

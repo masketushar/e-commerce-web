@@ -7,12 +7,12 @@ const Page = () => {
     <>
       <div className="flex flex-col lg:flex-row items-center bg-white p-20">
         <div className="lg:w-1/2 w-full flex flex-col items-center text-center lg:text-left">
-          <div className="w-3/5  h-lvh	">
+          <div className="w-3/5 relative  h-lvh	">
             <img src={image1} alt="cloth pic " className="w-full" />
-            <div>
+            <div className="absolute bottom-8">
               <h1 className="text-3xl font-bold mt-4">SHODWE E-MAGZ</h1>
               <p className="text-xl mt-2">
-                Dress with purpose, style with confidence—find your inspiration
+                Dress with purpose,<br></br> style with confidence—find your inspiration
                 today.
               </p>
               <button className="bg-black text-white py-2 px-4 mt-4">

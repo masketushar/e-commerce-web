@@ -5,6 +5,9 @@ import PageB from "./commen/pageB";
 import PageC from "./commen/pageC";
 import PageD from "./commen/pageD";
 import PageE from "./commen/pageE";
+import PageF from "./commen/pageF";
+
+
 
 const products = [
   { id: 1, name: "Product A", price: 100 },
@@ -28,6 +31,8 @@ const Home = () => {
         <PageC />
         <PageD />
         <PageE />
+        <PageF />
+
       </div>
     </>
   );
