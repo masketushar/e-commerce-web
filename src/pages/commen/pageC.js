@@ -72,11 +72,11 @@ const PageC = () => {
               </h3>
               <div className="flex items-center mb-2">
                 <span className="text-red-500 text-xl font-bold mr-2">
-                  ${product.price}
+                  {product.price}
                 </span>
                 {product.originalPrice && (
                   <span className="text-gray-500 line-through">
-                    ${product.originalPrice}
+                    {product.originalPrice}
                   </span>
                 )}
               </div>

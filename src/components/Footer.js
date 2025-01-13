@@ -157,17 +157,17 @@ const Footer = () => {
         <div className="flex flex-wrap justify-between items-center mt-8"></div>
 
         <div className="flex flex-wrap justify-between items-center mt-8">
-          <div className="w-full lg:w-1/3 mb-6 lg:mb-0">
+          <div className="w-full  mb-6 lg:mb-0">
             <h2 className="text-xl font-semibold mb-4">PAYMENT METHODS</h2>
-            <div className="flex space-x-4">
+            <div className="flex flex-wrap  space-x-4">
               <img src={epay} alt="eBay" className="h-8" />
               <img src={app} alt="Google Pay" className="h-8" />
               <img src={gay} alt="Apple Pay" className="h-8" />
               <img src={amp} alt="Amazon Pay" className="h-8" />
-              <img src={php} alt="American Express" className="h-8" />
-              <img src={alipay} alt="Alipay" className="h-8" />
-              <img src={wes} alt="BitPay" className="h-8" />
-              <img src={bitcoin} alt="Bitcoin" className="h-8" />
+              <img src={php} alt="American Express" className="h-8 py-2" />
+              <img src={alipay} alt="Alipay" className="h-8 py-2" />
+              <img src={wes} alt="BitPay" className="h-8 py-2" />
+              <img src={bitcoin} alt="Bitcoin" className="h-8 py-2" />
             </div>
           </div>
         </div>
