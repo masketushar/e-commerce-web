@@ -1,13 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import PageA from "./commen/pageA";
-import PageB from "./commen/pageB";
-import PageC from "./commen/pageC";
-import PageD from "./commen/pageD";
-import PageE from "./commen/pageE";
-import PageF from "./commen/pageF";
-
-
+import PageA from "./pageA";
+import PageB from "./pageB";
+import PageC from "./pageC";
+import PageD from "./pageD";
+import PageE from "./pageE";
+import PageF from "./pageF";
+import Login from "../../AuthForm/login";
+import Signup from "../../AuthForm/signup";
 
 const products = [
   { id: 1, name: "Product A", price: 100 },
@@ -32,7 +32,8 @@ const Home = () => {
         <PageD />
         <PageE />
         <PageF />
-
+        <Login />
+        <Signup />
       </div>
     </>
   );
