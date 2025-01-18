@@ -1,39 +1,40 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { FiSearch, FiHeart, FiShoppingCart, FiUser } from "react-icons/fi";
+import log from "../Assets/logo1.png";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <header className="bg-gradient-to-r from-green-500 via-teal-500 to-cyan-500 shadow-md sticky top-0 z-50">
+    <header className="text-black shadow-md  top-0 z-50">
       <nav className="container mx-auto flex items-center justify-between py-3 px-6">
         <Link to="/" className="flex items-center space-x-2">
-          <span className="text-2xl font-bold text-white">Tushar</span>
+        <img src={log} alt=""className="h-9 w-20" />
         </Link>
 
         <div className="hidden lg:flex items-center space-x-8">
           <Link
             to="/"
-            className="text-white hover:text-yellow-300 font-medium transition"
+            className="text-black hover:text-yellow-300 font-medium transition"
           >
             Home
           </Link>
           <Link
             to="/contact"
-            className="text-white hover:text-yellow-300 font-medium transition"
+            className="text-black hover:text-yellow-300 font-medium transition"
           >
             Contact
           </Link>
           <Link
             to="/about"
-            className="text-white hover:text-yellow-300 font-medium transition"
+            className="text-black hover:text-yellow-300 font-medium transition"
           >
             About
           </Link>
           <Link
             to="/signup"
-            className="text-white hover:text-yellow-300 font-medium transition"
+            className="text-black hover:text-yellow-300 font-medium transition"
           >
             Sign Up
           </Link>
@@ -54,25 +55,25 @@ const Header = () => {
             </button>
           </form>
 
-          <button className="text-white hover:text-yellow-300 transition relative">
+          <button className="text-black hover:text-yellow-300 transition relative">
             <FiHeart className="h-5 w-5" />
           </button>
 
-          <button className="text-white hover:text-yellow-300 transition relative">
+          <button className="text-black hover:text-yellow-300 transition relative">
             <FiShoppingCart className="h-5 w-5" />
             <span className="absolute top-0 right-0 bg-red-500 text-white text-xs font-bold rounded-full w-4 h-4 flex items-center justify-center">
               0
             </span>
           </button>
 
-          <button className="text-white hover:text-yellow-300 transition">
+          <button className="text-black hover:text-yellow-300 transition">
             <FiUser className="h-5 w-5" />
           </button>
         </div>
 
         <button
           onClick={() => setIsMenuOpen(!isMenuOpen)}
-          className="lg:hidden block text-white focus:outline-none focus:ring-2 focus:ring-gray-400"
+          className="lg:hidden block text-black focus:outline-none focus:ring-2 focus:ring-gray-400"
           aria-label="Toggle navigation"
         >
           <svg
@@ -92,32 +93,32 @@ const Header = () => {
         </button>
       </nav>
       {isMenuOpen && (
-        <div className="lg:hidden bg-teal-600 text-white py-4">
+        <div className="lg:hidden bg-teal-600 text-black py-4">
           <div className="flex flex-col items-center space-y-4">
             <Link
               to="/"
-              className="text-white hover:text-yellow-300 font-medium transition"
+              className="text-black hover:text-yellow-300 font-medium transition"
               onClick={() => setIsMenuOpen(false)}
             >
               Home
             </Link>
             <Link
               to="/contact"
-              className="text-white hover:text-yellow-300 font-medium transition"
+              className="text-black hover:text-yellow-300 font-medium transition"
               onClick={() => setIsMenuOpen(false)}
             >
               Contact
             </Link>
             <Link
               to="/about"
-              className="text-white hover:text-yellow-300 font-medium transition"
+              className="text-black hover:text-yellow-300 font-medium transition"
               onClick={() => setIsMenuOpen(false)}
             >
               About
             </Link>
             <Link
               to="/signup"
-              className="text-white hover:text-yellow-300 font-medium transition"
+              className="text-black hover:text-yellow-300 font-medium transition"
               onClick={() => setIsMenuOpen(false)}
             >
               Sign Up

@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const Login = () => {
   return (
@@ -32,14 +32,14 @@ const Login = () => {
           </form>
         </div>
 
-        {/* Overlay Section */}
-        <div className="flex flex-col justify-center items-center flex-1 bg-cover bg-center text-white" >
-          <h2 className="text-4xl font-bold mb-4">Welcome Back!</h2>
-          <p className="text-center mb-6 text-lg">Join us to explore a world of opportunities and seamless connections.</p>
-          <button className="px-6 py-3 bg-white text-indigo-500 font-semibold rounded-md hover:bg-gray-100 transition">
-            Register
-          </button>
-        </div>
+        <div
+          className="flex flex-col justify-center items-center
+         flex-1 bg-cover bg-center text-white"
+          style={{
+            backgroundImage:
+              "url('https://img.lovepik.com/photo/45009/7677.jpg_wh860.jpg')",
+          }}
+        ></div>
       </div>
     </div>
   );
